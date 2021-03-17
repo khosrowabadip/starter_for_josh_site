@@ -1,21 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>JOSH WHITKIN</title>
-    <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  <link rel="stylesheet" href="style.css" />
-      <link rel="stylesheet" href="responsive.css" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet">
+@media only screen and (max-width: 990px) {
+   .article-cent{
+       text-align:center;
+            }
+    
+   .article-cent img{ 
+       margin: auto;
+    }
+}
 
-</head>
+@media only screen and (max-width: 700px) {
+    .herobg h1{
+        float:none; /*remove the float- that pushed the text to the right*/
+        width:100%; 
+/*        make the text fill the whole width*/
+        text-align:center; 
+/*        center align the text*/
+    margin-top: 60%; /*    push the text down  using 60% of the widht of the browser- this will always adjust according to width of screen*/
+font-size: 5.125em; 
+/*        reduce the size of font*/
+        
+}
+
+    
+    @media only screen and (max-width: 500px) {
+  .particle {
+    text-align: center;
+    margin-right: 0px;  
+    }
+    
+    .about-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 1.0em;
+    }
+    
+}
+
