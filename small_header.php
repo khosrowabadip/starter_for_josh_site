@@ -69,7 +69,7 @@
 
         <!-- div for the main image the stretches to the edge of the page -->
         <div class="container">
-            <h1> Games Design For the Future</h1>
+            
 
 
         </div>
