@@ -33,7 +33,7 @@ Template Name: CV
 	<?php endif; ?>
 	</article><!---->
 </section>
-           
+            
      </div>
     </div>
   </div>
